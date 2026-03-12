@@ -8,6 +8,7 @@ from google.genai import errors
 from gemini import response
 
 #loaded json file containing LLM configuration
+print
 with open("config.json", "r") as c:
   config = json.load(c)
 
